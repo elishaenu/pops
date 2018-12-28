@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Content</title>
+        <link rel="stylesheet" href="content.css">
+        <script src="jquery.js"></script> 
+        <script> 
+            $(function(){
+                $(".sidebar").load("sidebar.html", function(){
+                    alert("load was performed");
+                }); 
+            });
+        </script> 
+    </head>
+
+    <body>
+        <div class="sidebar">
+            <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+                <div class="ul-sidebar">
+                    <div class="li-sidebar">
+                        <div class="li-nested-sidebar"><img src="icon.svg" alt="Kiwi standing on oval" width="30px" height="30px"></div>
+                    </div>
+                    <div class="li-sidebar">
+                        <div class="li-nested-sidebar is-selected"><img src="icon.svg" alt="Kiwi standing on oval" width="30px" height="30px"></div>
+                        <div class="li-nested-sidebar"><img src="icon.svg" alt="Kiwi standing on oval" width="30px" height="30px"></div>
+                        <div class="li-nested-sidebar"><img src="icon.svg" alt="Kiwi standing on oval" width="30px" height="30px"></div>
+                    </div>
+                    <div class="li-sidebar">
+                        <div class="li-nested-sidebar"><img src="icon.svg" alt="Kiwi standing on oval" width="30px" height="30px"></div>
+                        <div class="li-nested-sidebar"><img src="icon.svg" alt="Kiwi standing on oval" width="30px" height="30px"></div>
+                        <div class="li-nested-sidebar"><img src="icon.svg" alt="Kiwi standing on oval" width="30px" height="30px"></div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
