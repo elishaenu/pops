@@ -1,0 +1,24 @@
+th{
+    border: 2px solid #1b1c21;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    background-color: #262831;
+    color: #9ea1b4;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: .75rem;
+}
+
+tr {
+    border: 1px solid #1b1c21;
+}
+
+.td-with-icon {
+    display: flex;
+    align-items: center;
+}
