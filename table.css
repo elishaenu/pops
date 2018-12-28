@@ -22,3 +22,15 @@ tr {
     display: flex;
     align-items: center;
 }
+
+.arrow{
+    position: relative;
+    margin-left: auto;
+}
+
+.th-with-icon {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #1b1c21;
+}
