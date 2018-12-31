@@ -64,14 +64,28 @@ p {
 
 .liku {
   border-bottom: 2px solid #262831;
+  border-top: none;
 	outline: 0;
 }
 
-.liku:last-child {
+.liku:last-child{
   border-bottom: none;
 }
 
 .arrow{
   position: relative;
   margin-left: auto;
+}
+
+.li-list-item:hover > a {
+  background-color: #ffd77b;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+div:first-child > li:first-child:hover >a, .nested-ul-list-item > .li-list-item:first-child:hover > a {
+  border-radius: 4px 4px 0 0;
+}
+
+div:last-child > li:last-child:hover >a, .nested-ul-list-item > .li-list-item:last-child:hover > a  {
+  border-radius: 0 0 4px 4px;
 }
