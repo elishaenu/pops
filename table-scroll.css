@@ -1,0 +1,108 @@
+body{
+    background-color: #30333f;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    height: 30%;
+    border: 1px solid #1b1c21;
+    border-radius: 4px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    font: 1rem 'Roboto', sans-serif;
+    display: block;
+    overflow-x: auto;
+}
+
+tbody {
+    /* height: 10%; */
+    overflow-y: auto;
+}
+
+th{
+    text-align: center;
+    color: #ffd77b;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    /* background-color: #313440; */
+    color: #9ea1b4;
+    border-collapse: separate;
+    padding: .5rem;
+    table-layout: auto;
+    /* border-radius: 4px; */
+    /* border-spacing: 1em .5em; */
+}
+
+th,td {
+    padding: .75rem;
+}
+
+th{
+    border: 1px solid #1b1c21;
+}
+
+td{
+    border: 1px solid #1b1c21;
+}
+
+.is-selected {
+    background-color: #ffd77b;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+tr:first-child>td:first-child{
+    border-radius: 4px 0 0 0;
+}
+
+tr:first-child>td:last-child{
+    border-radius:  0 4px 0 0;
+}
+
+tr:last-child>td:first-child{
+    border-radius:  0 0 0 4px;
+}
+
+tr:last-child>td:last-child{
+    border-radius:  0 0 4px 0;
+    margin-top: 1px;
+}
+
+tr:first-child>td {
+    color: #ffd77b;
+}
+
+select {
+    width: 100%;
+}
+
+tr {
+    border-spacing: 1rem;
+    box-sizing: border-box;
+}
+
+tr > td {
+    max-width: 54px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+tbody:before {
+    content: "-";
+    display: block;
+    line-height: .5rem;
+    color: transparent;
+}
