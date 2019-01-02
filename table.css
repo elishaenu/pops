@@ -8,6 +8,7 @@ table {
     background-color: #262831;
     color: #9ea1b4;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 th,td {
@@ -18,9 +19,12 @@ tr {
     border: 1px solid #1b1c21;
 }
 
-.td-with-icon {
-    display: flex;
-    align-items: center;
+
+
+.icon-wrapper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .arrow{
@@ -28,14 +32,44 @@ tr {
     margin-left: auto;
 }
 
-.th-with-icon {
-    display: flex;
-    align-items: center;
-    border: none;
-    border-bottom: 1px solid #1b1c21;
+.th-icon-wrapper{
+    float: right;
 }
 
 .is-selected {
     background-color: #ffd77b;
     color: rgba(0, 0, 0, 0.87);
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.table-enu td:nth-child(1),.table-enu th:nth-child(1)
+{
+    width: 20%;
+}
+
+.table-enu td:nth-child(2),.table-enu th:nth-child(2)
+{
+    width: 20%;
+}
+.table-enu td:nth-child(3),.table-enu th:nth-child(3)
+{
+    width: 15%;
+}
+.table-enu td:nth-child(4),.table-enu th:nth-child(4)
+{
+    width: 10%;
+}
+.table-enu td:nth-child(5),.table-enu th:nth-child(5)
+{
+    width: 20%;
+}
+.table-enu td:nth-child(6),.table-enu th:nth-child(6)
+{
+    width: 16%;
 }
