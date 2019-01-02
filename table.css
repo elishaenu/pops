@@ -1,9 +1,9 @@
-th{
+.table-content th{
     border: 2px solid #1b1c21;
     text-align: left;
 }
 
-table {
+.table-content {
     width: 100%;
     background-color: #262831;
     color: #9ea1b4;
@@ -11,15 +11,13 @@ table {
     table-layout: fixed;
 }
 
-th,td {
+.table-content th,.table-content td {
     padding: .75rem;
 }
 
-tr {
+.table-content tr {
     border: 1px solid #1b1c21;
 }
-
-
 
 .icon-wrapper{
     display: inline-block;
@@ -41,35 +39,35 @@ tr {
     color: rgba(0, 0, 0, 0.87);
 }
 
-td {
+.table-content td {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     vertical-align: middle;
 }
 
-.table-enu td:nth-child(1),.table-enu th:nth-child(1)
+.table-content td:nth-child(1),.table-content th:nth-child(1)
 {
     width: 20%;
 }
 
-.table-enu td:nth-child(2),.table-enu th:nth-child(2)
+.table-content td:nth-child(2),.table-content th:nth-child(2)
 {
     width: 20%;
 }
-.table-enu td:nth-child(3),.table-enu th:nth-child(3)
+.table-content td:nth-child(3),.table-content th:nth-child(3)
 {
     width: 15%;
 }
-.table-enu td:nth-child(4),.table-enu th:nth-child(4)
+.table-content td:nth-child(4),.table-content th:nth-child(4)
 {
     width: 10%;
 }
-.table-enu td:nth-child(5),.table-enu th:nth-child(5)
+.table-content td:nth-child(5),.table-content th:nth-child(5)
 {
     width: 20%;
 }
-.table-enu td:nth-child(6),.table-enu th:nth-child(6)
+.table-content td:nth-child(6),.table-content th:nth-child(6)
 {
     width: 16%;
 }
