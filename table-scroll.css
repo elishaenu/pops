@@ -21,11 +21,18 @@ html {
     font: 1rem 'Roboto', sans-serif;
     display: block;
     overflow-x: auto;
+    padding: 5px;
 }
 
-tbody {
-    /* height: 10%; */
+tbody { /*dua*/
+    display:inline-block;
+    width: 100%;
     overflow-y: auto;
+    height: 11em;
+}
+
+thead tr { /*tiga*/
+    display: inline-block;
 }
 
 th{
@@ -34,26 +41,16 @@ th{
     border-radius: 4px;
 }
 
-table {
+table { /*satu*/
     width: 100%;
-    /* background-color: #313440; */
     color: #9ea1b4;
     border-collapse: separate;
     padding: .5rem;
     table-layout: auto;
-    /* border-radius: 4px; */
-    /* border-spacing: 1em .5em; */
 }
 
 th,td {
     padding: .75rem;
-}
-
-th{
-    border: 1px solid #1b1c21;
-}
-
-td{
     border: 1px solid #1b1c21;
 }
 
@@ -86,12 +83,6 @@ tr:first-child>td {
 select {
     width: 100%;
 }
-
-tr {
-    border-spacing: 1rem;
-    box-sizing: border-box;
-}
-
 tr > td {
     max-width: 54px;
     text-align: center;
@@ -105,4 +96,8 @@ tbody:before {
     display: block;
     line-height: .5rem;
     color: transparent;
+}
+
+tbody{
+    padding-right:2px;
 }
