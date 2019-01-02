@@ -3,7 +3,6 @@
     width: 90%;
     color: #9ea1b4;
     list-style-type: none;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -14,9 +13,10 @@
     perspective: 1px;
     outline: 0;
     height: 95%;
-    padding: 2rem;
+    padding: 2rem 0 2rem 0;
     box-sizing: border-box;
 }
+
 
 .footer {
     background: #313440;
@@ -31,6 +31,7 @@
     border-right: 2px solid #1b1c21;
     padding: 0.7% 0;
     flex-grow: 2;
+    text-align: center;
 }
 
 .footer-right {
