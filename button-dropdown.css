@@ -31,6 +31,12 @@
   border-right: none;
 }
 
+.par-dropdown-content {
+  width: 160px;
+  height: 1rem;
+  display: none;
+}
+
 .dropdown-content {
   width:160px;
   background-color: #454958;
@@ -41,6 +47,7 @@
   position: absolute;
   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   z-index: 1;
+  margin-top: .5rem;
 }
 
 .dropdown-content a {
@@ -58,5 +65,7 @@
 .dropdown-content a:hover:last-child {border-radius: 0 0 4px 4px;}
 
 .dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .par-dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #262831;}
